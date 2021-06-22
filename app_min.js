@@ -1,0 +1,1 @@
+const navMenu=document.querySelector(".nav-menu"),burgerButton=document.querySelector(".nav-burger");burgerButton.addEventListener("click",()=>{navMenu.classList.toggle("nav-menu-active"),burgerButton.classList.toggle("nav-burger-active");const e=document.querySelectorAll(".lis");setTimeout(()=>{for(let t=0;t<e.length;t++)e[t].style.opacity=1},300)});
